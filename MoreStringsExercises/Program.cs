@@ -1,0 +1,18 @@
+﻿using System;
+
+namespace MoreStringsExercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //programm kuvab sõnna racecar tagurpidi
+            string raceCar = "racecar";
+
+            for(int i = raceCar.Length -1; i >= 0; i--)
+            {
+                Console.Write(raceCar[i]);
+            }
+        }
+    }
+}
